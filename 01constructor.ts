@@ -1,8 +1,8 @@
-class Animals2 {
+class Animal2 {
   constructor() {
     console.log('constructor run first forever');
   }
 }
 
-const elephant = new Animals2();
+const elephant = new Animal2();
 console.log(elephant);
