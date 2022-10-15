@@ -1,7 +1,6 @@
 class ProductClass {
   private _normalPrice: number = 0;
   private discount: number = 0.05;
-  private _priceDiscount = 0;
   public name: string = '';
   public size: string = '';
 
@@ -10,6 +9,7 @@ class ProductClass {
     this.size = size;
   }
 
+  /* setter */
   set percentDiscount(value) {
     this.discount = value / 100;
   }
@@ -18,6 +18,7 @@ class ProductClass {
     this._normalPrice = value;
   }
 
+  /* getter */
   get normalPrice() {
     return this._normalPrice;
   }
@@ -35,6 +36,8 @@ class ProductClass {
 class GetProduct extends ProductClass {
   constructor(name: string, size: string, price: number, discount: number) {
     super(name, size);
+
+    /* call setter on child class */
     this.normalPrice = price;
     this.percentDiscount = discount;
   }
