@@ -13,27 +13,27 @@ abstract class Animals11 {
 
 class Kucing11 extends Animals11 {
   constructor() {
-    super('kucing');
+    super("kucing");
   }
 
   bergerak(): void {
-    console.log('kucing jalan');
+    console.log("kucing jalan");
   }
 }
 
 class Burung11 extends Animals11 {
   constructor() {
-    super('burung');
+    super("burung");
   }
 
   bergerak(): void {
-    console.log('burung terbang');
+    console.log("burung terbang");
   }
 }
 
 const kucing11 = new Kucing11();
 const burung11 = new Burung11();
-console.log('kucing:', kucing11);
+console.log("kucing:", kucing11);
 kucing11.bergerak();
-console.log('burung:', burung11);
-burung11.bergerak()
+console.log("burung:", burung11);
+burung11.bergerak();
