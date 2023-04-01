@@ -8,7 +8,7 @@
 
 1. make coffe or tea for enjoyed learn
 2. maybe burn ciggarates or eat snack
-3. install runtime deno for website: deno.land
+3. install runtime deno from website: deno.land
 4. and cmiw lest go running file type script in cli
 
 ## Run Project With Cli
